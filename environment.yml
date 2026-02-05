@@ -1,0 +1,19 @@
+name: stock_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - matplotlib=3.8.*
+  - seaborn=0.13.*
+  - jupyterlab=4.0.*
+  - notebook=7.0.*
+  - ipykernel=6.29.*
+  - pyarrow=14.*
+  - pip=23.*
+  - pip:
+    - yfinance>=0.2.36
+    - pandas-ta>=0.3.14b
+    - mplfinance>=0.12.10
